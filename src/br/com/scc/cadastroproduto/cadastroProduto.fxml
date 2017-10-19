@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.com.scc.cadastroproduto.CadastroProdutoController">
+    <stylesheets>
+        <URL value="@cadastroproduto.css" />
+    </stylesheets>
+    <children>
+      
+     
+      <TextField layoutX="131.0" layoutY="132.0" prefHeight="45.0" prefWidth="245.0" />
+      <Label layoutX="60.0" layoutY="146.0" text="Produto:" />
+      <Label layoutX="408.0" layoutY="146.0" text="Cod:" />
+      <TextField layoutX="454.0" layoutY="132.0" prefHeight="45.0" prefWidth="86.0" />
+      <Label layoutX="60.0" layoutY="212.0" text="Quantidade:" />
+      <TextField layoutX="130.0" layoutY="198.0" prefHeight="45.0" prefWidth="86.0" />
+      <Label layoutX="268.0" layoutY="212.0" text="Preço:" />
+      <TextField layoutX="314.0" layoutY="198.0" prefHeight="45.0" prefWidth="86.0" />
+      <Button layoutX="67.0" layoutY="321.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="127.0" text="Salvar" />
+      <Button layoutX="250.0" layoutY="321.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="102.0" text="Editar" />
+      <Button layoutX="407.0" layoutY="321.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="95.0" text="Excluir" />
+      <Label layoutX="179.0" layoutY="27.0" text="Cadastro de produtos">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="45.0" fitWidth="111.0" layoutX="16.0" layoutY="20.0">
+         <image>
+            <Image url="@../../../../../../../../Desktop/motocubo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
