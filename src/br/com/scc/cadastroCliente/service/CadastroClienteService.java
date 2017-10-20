@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.scc.cadastroproduto.service;
+package br.com.scc.cadastroCliente.service;
 
 /**
  *
  * @author Adriana
  */
-public class CadastroProdutoService {
+public class CadastroClienteService {
     
 }

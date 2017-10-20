@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.scc.cadastrousuario;
+package br.com.scc.cadastroCliente;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -14,7 +14,7 @@ import javafx.fxml.Initializable;
  *
  * @author Adriana
  */
-public class CadastroUsuarioController implements Initializable {
+public class CadastroClienteController implements Initializable {
 
     /**
      * Initializes the controller class.

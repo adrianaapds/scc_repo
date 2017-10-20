@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.image.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="354.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.loginController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.scc.login.LoginController">
     <children>
-      <Label layoutX="213.0" layoutY="26.0" text="Login" textAlignment="CENTER" />
-      <TextField fx:id="campoemail" layoutX="120.0" layoutY="76.0" prefHeight="45.0" prefWidth="249.0" promptText="E-mail" />
-      <PasswordField fx:id="camposenha" layoutX="120.0" layoutY="132.0" prefHeight="45.0" prefWidth="249.0" promptText="Senha" />
-      <Button fx:id="campoentrar" layoutX="120.0" layoutY="213.0" mnemonicParsing="false" onAction="#entrar" prefHeight="45.0" prefWidth="249.0" text="Entrar" />
-      <Button fx:id="campocadastrar" layoutX="120.0" layoutY="279.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="249.0" text="Cadastrar" />
-      <ImageView fitHeight="45.0" fitWidth="71.0" layoutX="7.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../../../../../Desktop/motocubo.png" />
-         </image></ImageView>
+      <Label layoutX="285.0" layoutY="34.0" text="Login" textAlignment="CENTER" />
+      <TextField fx:id="campoemail" layoutX="176.0" layoutY="84.0" prefHeight="45.0" prefWidth="249.0" promptText="E-mail" />
+      <PasswordField fx:id="camposenha" layoutX="176.0" layoutY="140.0" prefHeight="45.0" prefWidth="249.0" promptText="Senha" />
+      <Button fx:id="campoentrar" layoutX="176.0" layoutY="221.0" mnemonicParsing="false" onAction="#entrar" prefHeight="45.0" prefWidth="249.0" text="Entrar" />
+      <Button fx:id="campocadastrar" layoutX="176.0" layoutY="287.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="249.0" text="Cadastrar" />
+     
     </children>
 </AnchorPane>
