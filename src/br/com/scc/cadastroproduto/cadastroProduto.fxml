@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="br.com.scc.cadastroproduto.CadastroProdutoController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.scc.cadastroproduto.CadastroProdutoController">
     <children>
       
      
@@ -21,8 +23,14 @@
       <Button layoutX="67.0" layoutY="321.0" mnemonicParsing="false" onAction="#salvar" prefHeight="32.0" prefWidth="127.0" text="Salvar" />
       <Button layoutX="250.0" layoutY="321.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="102.0" text="Editar" />
       <Button layoutX="407.0" layoutY="321.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="95.0" text="Excluir" />
-      <Label layoutX="179.0" layoutY="27.0" text="Cadastro de produtos">
-        
-      </Label>      
+      <Label layoutX="256.0" layoutY="30.0" text="Cadastro de produtos">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <ImageView fitHeight="53.0" fitWidth="79.0" layoutX="173.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@motocubo.png" />
+         </image>
+      </ImageView>      
    </children>
 </AnchorPane>
